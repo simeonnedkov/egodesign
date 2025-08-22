@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ego Design Studio - Интериорен Дизайн</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <!-- Moved logo to far left and made it bigger -->
+            <div class="nav-brand">
+                <div class="nav-logo-image">
+                    <img src="images/headerlogo.png" alt="Ego Design Studio Logo" class="logo-img">
+                </div>
+                <a href="#" class="nav-logo">EGO DESIGN STUDIO</a>
+            </div>
+            <div class="nav-menu">
+                <a href="#work" class="nav-link">Проекти</a>
+                <a href="#about" class="nav-link">За нас</a>
+                <a href="#contact" class="nav-link">Контакт</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            ИНТЕРИОРЕН<br>ДИЗАЙН
+                        </h1>
+                        <p class="hero-description">
+                            Креативност. Функционалност. Стил. Ego design studio създава уникални интериорни пространства, които
+                            отразяват вашата индивидуалност от 2020 година.
+                        </p>
+                        <a href="#work" class="hero-button">Разгледайте проектите ни</a>
+                    </div>
+                    <div class="hero-visual">
+                        <!-- Added interactive parallax and hover effects to hero image -->
+                        <div class="hero-image-container interactive-hero">
+                            <div class="hero-image-wrapper">
+                                <img src="images/logo.jpg" alt="Интериорен дизайн проект" class="hero-image parallax-element">
+                                <div class="image-overlay">
+                                    <div class="overlay-content">
+                                        <span class="overlay-text">Разгледайте проекта</span>
+                                        <div class="overlay-arrow">→</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="black-square floating-element"></div>
+                            <div class="decorative-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="work" class="work">
+            <div class="container">
+                <h2 class="section-title">ПРОЕКТИ</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <!-- Removed project number overlay from project 1 -->
+                        <div class="project-image">
+                            <img src="images/проект2.jpg" alt="Жилищни интериори" class="project-img">
+                        </div>
+                        <h3 class="project-title">Жилищни Интериори</h3>
+                        <p class="project-description">Създаване на уютни и функционални домашни пространства</p>
+                    </div>
+                    <div class="project-card">
+                        <!-- Removed project number overlay from project 2 -->
+                        <div class="project-image">
+                            <img src="images/проект1.jpg" alt="Търговски интериори" class="project-img">
+                        </div>
+                        <h3 class="project-title">Търговски Интериори</h3>
+                        <p class="project-description">Модерни решения за офиси, магазини и ресторанти</p>
+                    </div>
+                    <div class="project-card">
+                        <!-- Removed project number overlay from project 3 -->
+                        <div class="project-image">
+                            <img src="images/Проект3.jpg    " alt="Реновации" class="project-img">
+                        </div>
+                        <h3 class="project-title">Реновации</h3>
+                        <p class="project-description">Пълно преобразяване на съществуващи пространства</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-visual">
+                        <h2 class="section-title">ЗА НАС</h2>
+                        <!-- Moved image up to align with text start -->
+                        <div class="about-image interactive-about aligned-top">
+                            <div class="about-image-wrapper">
+                                <img src="images/logo.jpg" alt="Ego Design Studio екип" class="about-img parallax-element">
+                                <div class="about-overlay">
+                                    <div class="about-overlay-content">
+                                        <span class="about-overlay-text">Нашият екип</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about-frame floating-element"></div>
+                            <div class="about-accent-circle"></div>
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <!-- Restructured text content with better typography hierarchy -->
+                        <div class="about-intro">
+                            <p class="about-text-large">
+                                Ego design studio е специализирано студио за интериорен дизайн, което създава изключителни пространства за живот и работа.
+                            </p>
+                            <p class="about-subtitle">
+                                Вдъхновени от принципите на швейцарския дизайн, ние съчетаваме минимализъм с функционалност и комфорт.
+                            </p>
+                        </div>
+                        
+                        <div class="about-details">
+                            <p class="about-text">
+                                Нашият подход се основава на разбиране на нуждите на клиента, оптимално използване на пространството и внимание към всеки детайл. Работим с клиенти от различни сфери, за да създадем интериори, които отразяват тяхната индивидуалност и начин на живот.
+                            </p>
+                            <p class="about-text">
+                                От жилищни интериори до търговски пространства - ние превръщаме идеите в реалност чрез иновативни дизайнерски решения, качествени материали и професионално изпълнение.
+                            </p>
+                        </div>
+
+                        <div class="services-grid">
+                            <div class="services-column">
+                                <h3 class="services-title">УСЛУГИ</h3>
+                                <ul class="services-list">
+                                    <li>Интериорен дизайн</li>
+                                    <li>3D визуализации</li>
+                                    <li>Обзавеждане</li>
+                                    <li>Консултации</li>
+                                </ul>
+                            </div>
+                            <div class="services-column">
+                                <h3 class="services-title">СПЕЦИАЛИЗАЦИИ</h3>
+                                <ul class="services-list">
+                                    <li>Жилищни интериори</li>
+                                    <li>Търговски пространства</li>
+                                    <li>Осветление</li>
+                                    <li>Цветови схеми</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2 class="section-title">КОНТАКТ</h2>
+                        <p class="contact-description">Заинтересовани сте от сътрудничество? Нека обсъдим вашия проект.</p>
+                        <div class="contact-details">
+                            <p class="contact-item">
+                                <span class="contact-label">Имейл</span>
+                                <a href="mailto:designstudio_ego@mail.bg" class="contact-link">designstudio_ego@mail.bg</a>
+                            </p>
+                            <p class="contact-item">
+                                <span class="contact-label">Телефон</span>
+                                <a href="tel:+359899938466" class="contact-link">+359 89 993 8466</a>
+                            </p>
+                            <p class="contact-item">
+                                <span class="contact-label">Локация</span>
+                                <span>София, България</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Име</label>
+                                <input type="text" id="name" class="form-input" placeholder="Вашето име" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Имейл</label>
+                                <input type="email" id="email" class="form-input" placeholder="Вашият имейл" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Съобщение</label>
+                                <textarea id="message" rows="4" class="form-input" placeholder="Вашето съобщение" required></textarea>
+                            </div>
+                            <button type="submit" class="form-button">Изпрати съобщение</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">© 2025 Ego Design Studio.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
